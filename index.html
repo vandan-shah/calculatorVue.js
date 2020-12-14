@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/vue@3.0.0-beta.12/dist/vue.global.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+
+        <div id="app">
+            <section>
+                <h1>Calculator</h1>
+                <calculator></calculator>
+            </section>
+        </div>
+
+
+
+        <script src="main.js"></script>
+
+        <!-- Vue Components -->
+        <script src="calc.js"></script>
+
+        <!-- Mount App -->
+        <script>
+            const mountedApp = app.mount('#app')
+        </script>
+
+    </body>
+</html>
