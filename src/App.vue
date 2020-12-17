@@ -1,3 +1,23 @@
+<template>
+  <div id="app">
+            <section>
+                <h1>Calculator</h1>
+                <Calc></Calc>
+            </section>
+  </div>
+</template>
+
+<script>
+import Calc from './components/Calc'
+
+export default {
+  components: {
+    Calc
+  }
+}
+</script>
+
+<style>
 * {
     margin: 0;
     padding: 0;
@@ -84,3 +104,4 @@ row1 {
 .equal {
     color: #5cb85c;
 }
+</style>

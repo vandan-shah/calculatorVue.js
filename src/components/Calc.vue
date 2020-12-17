@@ -1,7 +1,5 @@
-app.component('calculator', {
-    template:
-    /*html*/
-    `<div class="formstyle">
+<template>
+    <div class="formstyle">
         <div class="row">
             <div class="calculator">
 
@@ -38,7 +36,11 @@ app.component('calculator', {
 
             </div>
         </div>
-    </div>`,
+    </div>
+</template>
+
+<script>
+export default {
     data() {
         return {
             previous: null,
@@ -83,4 +85,9 @@ app.component('calculator', {
             this.previous = null
         }
     }
-})
+}
+</script>
+
+<style>
+
+</style>
